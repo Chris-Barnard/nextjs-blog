@@ -21,7 +21,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm Chris.  I'm a trader specializing in the Futures and Forex Markets.  Follow me on my journey to become one of the top 5% of traders that can thrive in today's difficult trading world</p>
+        <p>Hello, I'm Chris.  I'm a trader specializing in the Futures and Forex Markets.  Follow me on my journey to become one of the top 5% of traders that can thrive in today's difficult trading world.</p>
         <p>
             I am a former poker player and data scientist that has always enjoyed studying the markets and investing.
             I started primarily as long term value investor and bitcoin HODLer.
