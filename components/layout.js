@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Chris Barnard';
-export const siteTitle = 'A Trader\'s Journey to becoming World Class';
+export const siteTitle = 'A Trader\'s Journey to Becoming World Class';
 
 export default function Layout({ children, home }) {
   return (
