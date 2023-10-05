@@ -1,6 +1,6 @@
 ---
 title: 'The Trading Triangle'
-date: '2023-10-02'
+date: '2023-10-06'
 ---
 
 Understanding the math of your trading is paramount to developing a trading plan that you can expect earn money over time, or that has a positive expectation.  There are three variables that are critical to measure and track to understand how your trading strategy is performing.
