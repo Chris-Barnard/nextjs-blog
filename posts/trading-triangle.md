@@ -1,13 +1,13 @@
 ---
-title: 'The Trader''s Triangle'
+title: 'The Trading Triangle'
 date: '2023-10-02'
 ---
 
 Understanding the math of your trading is paramount to developing a trading plan that you can expect earn money over time, or that has a positive expectation.  There are three variables that are critical to measure and track to understand how your trading strategy is performing.
 
-Renowned market wizard Mark Minervini refers to these three variables as the Trader's Triangle. This post is dedicated to not only explaining what these variables are, but also some very insightful metrics that can be calculated from these.
+Renowned market wizard Mark Minervini refers to these three variables as the Trading Triangle. This post is dedicated to not only explaining what these variables are, but also some very insightful metrics that can be calculated from these.
 
-## The Trader's Triangle
+## The Trading Triangle
  - Win Percentage
  - Average Win
  - Average Loss
@@ -28,5 +28,5 @@ The **Average Win** is the average amount of profit, across all of your profitab
 While it is fairly straightforward to understand these metrics in and of themselves, the insights really come when you start to see the relationships between each of these variables.
 
 ## Profit Factor
-Investopedia defines Profit Factor as Gross Profit / Gross Losses.
-![Profit Factor](../public/images/ProfitFactor.png)
+Investopedia defines Profit Factor as:
+![Profit Factor](/assets/blog/trading-triangle/profit-factor.png)
