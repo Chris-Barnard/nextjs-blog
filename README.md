@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is a project to create a blog for myself.  It will be used to document my journey on becoming a world class discretionary trader

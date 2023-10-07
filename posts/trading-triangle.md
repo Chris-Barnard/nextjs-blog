@@ -35,5 +35,25 @@ To calculate your **Average Loss** take your **Gross Losses** and divide by your
 
 While it is fairly straightforward to understand these metrics in and of themselves, the insights really come when you start to see the relationships between each of these variables.
 
+### Calculating these in practice
+Let's take a sample of trade results.  For this analysis, I'll look at a sample of my own trades, that I closed in September.  Perhaps the easiest way to quickly calculate these metrics is to separate your gross profits and gross losses into their own columns.
+
+![Sep Closed Trades](/assets/blog/trading-triangle/sep-closed-trades.jpg)
+
+Once I've done this, it's very easy to calculate these metrics.
+
+ - **Win Percentage:**
+   - I had 3 winning trades out of 9 total closed trades.
+   - Thus 3 / 9 = 33%
+ - **Average Win:**
+   - Here we can easily see that I had **Gross Winnings** of 5,270.27 and we know it was 3 winning trades.
+   - Thus we have 5,270.27 / 3 = 1,756.76
+ - **Average Loss:**
+   - Again, we can easily see in the table above that I had **Gross Losses** of 1,771.02 with 6 losing trades.
+   - Thus we have 1,771.02 / 6 = 295.17
+
+# Metrics Derived from the Trading Triangle
+So now you know how to calculate the metrics that make up the **Trading Triangle**, but what does it really tell you?
+
 ## Profit Factor
 Investopedia defines Profit Factor as: ![Profit Factor](/assets/blog/trading-triangle/profit-factor.png)
