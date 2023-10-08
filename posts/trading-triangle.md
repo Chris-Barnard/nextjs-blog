@@ -52,11 +52,11 @@ Once I've done this, it's very easy to calculate these metrics.
 
 #### Average Win:
   - Here we can easily see that I had *Gross Profits* of $5,270.27 and we know it was 3 winning trades.
-  - Thus we have 5,270.27 / 3 = $1,756.76
+  - Thus we have $5,270.27 / 3 = $1,756.76
 
 #### Average Loss:
   - Again, we can easily see in the table above that I had *Gross Losses* of $1,771.02 with 6 losing trades.
-  - Thus we have 1,771.02 / 6 = $295.17
+  - Thus we have $1,771.02 / 6 = $295.17
 
 # So what does this mean?
 So now you know how to calculate the metrics that make up the *Trading Triangle*, but what does it really tell you?
@@ -67,8 +67,18 @@ Ideally, at least the way I am trading, you want this to a multiple greater than
 In my case for the month of September, this number was almost 6.
 My strategy is centered around trying to let my winners run, while cutting my losers quickly.
 
+## Profit Factor
 You may have noticed that in the *Profit to Loss Ratio* calculation, we did not use our *Win Percentage*.
 For this reason, the *Profit to Loss Ratio* is nearly as meaningless on it's own as the *Win Percentage* is.
 To really understand how efficient and how profitable your trading was, you want a metric that takes all parts of the *Trading Triangle* into account.
 
-## Profit Factor
+This brings us to my favorite metric, *Profit Factor*.
+*Profit Factor* can be calculated as *Gross Profits* / *Gross Losses*, however I like to think of it as:
+
+![Profit Factor](/assets/blog/trading-triangle/profit-factor.jpg)
+
+Thinking of it in this way, helps me to see it as the ratio of my probability weighted positive outcome to my probability weighted negative outcome.
+If you have a *Profit Factor* above 1, then in the sample measured, you were profitable.
+As your *Profit Factor* increases, then your profit relative to risk is growing as well.
+
+Peter Brandt states that a *Profit Factor* above 2 is great, above 3 outstanding, and anything above 4 is world class.
