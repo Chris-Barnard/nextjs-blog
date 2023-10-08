@@ -51,3 +51,8 @@
 .lightText {
   color: #666;
 }
+
+.centered {
+  display: block;
+  margin: auto;
+}
