@@ -2,6 +2,13 @@
     max-height: 36rem;
     padding: 0 1rem;
     max-width: 870px;
+    margin: 0 auto 6rem;
+}
+
+.contentContainer {
+    max-height: 36rem;
+    padding: 0 1rem;
+    max-width: 870px;
     margin: 3rem auto 6rem;
 }
 
@@ -14,4 +21,27 @@
 .backToHome {
     margin: 3rem 0 0;
     padding-bottom: 2rem;
+}
+
+.navigationTop {
+  background: #181818;
+  font-size: 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.mainNavigation {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+}
+
+.menuHome {
+  padding: 1rem;
+}
+
+.menuHome:hover {
+  text-decoration: none;
 }

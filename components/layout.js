@@ -26,6 +26,11 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
+        <div className={styles.navigationTop}>
+          <nav className={styles.mainNavigation} role='navigation'>
+            <Link href="/" className={styles.menuHome}>{name}</Link>
+          </nav>
+        </div>
         {home ? (
           <>
             <Image
