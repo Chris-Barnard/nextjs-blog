@@ -1,6 +1,6 @@
 ---
 title: 'The Trading Triangle'
-date: '2023-10-06'
+date: '2023-10-10'
 ---
 
 Understanding the math of your trading is paramount to developing a trading plan that you can expect earn money over time, or that has a positive expectation.  There are three variables that are critical to measure and track to understand how your trading strategy is performing.
@@ -96,3 +96,11 @@ If we made money over our sample, then our *Expectancy* will always be positive,
 I like to look at the *Expectancy* as a ratio to what you're risking on your losing trades.
 This tells you in percentage terms, what your gain was, based on the risk you were taking.
 This would be *Expectancy* / *Average Loss*.
+
+![Metrics](/assets/blog/trading-triangle/metrics.jpg)
+
+# Summary
+September was a good month in terms of closing a couple of winning trades and keeping my losses small.
+Thus these metrics look quite good, but there is always room for improvement.
+I am continually monitoring my performance in these ways, and using my *Profit Factor* as my guide for how I am doing relative to the risk that I am taking.
+I think if someone is serious about their trading, they need to have a grasp of these metrics for their own trade results.
