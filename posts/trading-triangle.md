@@ -61,13 +61,13 @@ Once I've done this, it's very easy to calculate these metrics.
 # So what does this mean?
 So now you know how to calculate the metrics that make up the *Trading Triangle*, but what does it really tell you?
 
-## Profit to Loss Ratio
+### Profit to Loss Ratio
 The first thing to look at is the ratio of your *Average Win* to your *Average Loss*
 Ideally, at least the way I am trading, you want this to a multiple greater than 1.
 In my case for the month of September, this number was almost 6.
 My strategy is centered around trying to let my winners run, while cutting my losers quickly.
 
-## Profit Factor
+### Profit Factor
 You may have noticed that in the *Profit to Loss Ratio* calculation, we did not use our *Win Percentage*.
 For this reason, the *Profit to Loss Ratio* is nearly as meaningless on it's own as the *Win Percentage* is.
 To really understand how efficient and how profitable your trading was, you want a metric that takes all parts of the *Trading Triangle* into account.
@@ -82,3 +82,17 @@ If you have a *Profit Factor* above 1, then in the sample measured, you were pro
 As your *Profit Factor* increases, then your profit relative to risk is growing as well.
 
 Peter Brandt states that a *Profit Factor* above 2 is great, above 3 outstanding, and anything above 4 is world class.
+
+### Expectancy
+Another metric that we can look at that takes uses each of the three components of the *Trading Triangle* is our *Expectancy*.
+The *Expectancy* is a measure of how what your profit or loss was on your average entry.
+In poker, we would call this the *Expected Value* of putting on an individual trade.
+
+![Expectancy](/assets/blog/trading-triangle/expectancy.jpg)
+
+This metric is our probability weighted positive outcome minus our probability weighted negative outcome.
+If we made money over our sample, then our *Expectancy* will always be positive, and if we didn't, then it will be negative.
+
+I like to look at the *Expectancy* as a ratio to what you're risking on your losing trades.
+This tells you in percentage terms, what your gain was, based on the risk you were taking.
+This would be *Expectancy* / *Average Loss*.
