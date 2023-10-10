@@ -41,6 +41,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  padding-bottom: 2rem;
 }
 
 .listItem {
@@ -49,4 +50,9 @@
 
 .lightText {
   color: #666;
+}
+
+.centered {
+  display: block;
+  margin: auto;
 }

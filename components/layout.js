@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Chris Barnard';
-export const siteTitle = 'A Trader\'s Journey to becoming World Class';
+export const siteTitle = 'A Trader\'s Journey to Becoming World Class';
 
 export default function Layout({ children, home }) {
   return (
@@ -32,8 +32,8 @@ export default function Layout({ children, home }) {
               priority
               src="/images/profile.jpg"
               className={utilStyles.borderCircle}
-              height={108}
-              width={144}
+              height={243}
+              width={324}
               alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -45,8 +45,8 @@ export default function Layout({ children, home }) {
                 priority
                 src="/images/profile.jpg"
                 className={utilStyles.borderCircle}
-                height={108}
-                width={144}
+                height={162}
+                width={216}
                 alt=""
               />
             </Link>
