@@ -3,6 +3,7 @@ import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
+import Image from 'next/image';
 import Date from '../components/date';
 
 export async function getStaticProps() {
@@ -20,29 +21,28 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>Hello, I'm Chris.  I'm a trader specializing in the Futures and Forex Markets.  Follow me on my journey to become one of the top 5% of traders that can thrive in today's difficult trading world.</p>
-        <p>
-            I am a former poker player and data scientist that has always enjoyed studying the markets and investing.
-            I started primarily as long term value investor and bitcoin HODLer.
-            Now I'm trying to make my mark swing trading in the futures and forex world.
-        </p>
-        <p>
-            I love being outdoors and having the freedom and flexibility to pursue my passions.
-            Trading is a vehicle for me to be able to have the time to do the things I love, while still being able to afford the lifestyle that I want in today's inflation charged world.
-            It also scratches my competive itch, attempting to beat the best in the world, and bring some of that Wall St money back to spend in my local community here in rural Colorado.
-        </p>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog Posts</h2>
+      <section className={utilStyles.padding1px}>
+        <h2 className={utilStyles.headingXl}>Blog Posts</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, image, blurb }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link>
-              <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
+              <br />
+              <Link className={utilStyles.headingLg} href={`/posts/${id}`}>{title}</Link>
+              <Link href={`/posts/${id}`}>
+                  <Image
+                    className={utilStyles.blurbImage}
+                    src={image}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto'}}
+                    alt={title}
+                  />
+              </Link>
+              <Link className={utilStyles.blurb} href={`/posts/${id}`}>{blurb}</Link>
             </li>
           ))}
         </ul>

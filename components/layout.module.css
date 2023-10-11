@@ -1,7 +1,14 @@
 .container {
     max-height: 36rem;
+    padding: 0;
+    /* max-width: 870px; */
+    /* margin: 0 auto 6rem; */
+}
+
+.contentContainer {
+    max-height: 36rem;
     padding: 0 1rem;
-    max-width: 870px;
+    max-width: 870px; 
     margin: 3rem auto 6rem;
 }
 
@@ -14,4 +21,64 @@
 .backToHome {
     margin: 3rem 0 0;
     padding-bottom: 2rem;
+}
+
+.navigationTop {
+  background: #181818;
+  font-size: 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.mainNavigation {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: lowercase;
+}
+
+.menuName {
+  padding: 1rem;
+  padding-right: 3rem;
+}
+
+.menuName:hover {
+    text-decoration: none;
+}
+
+.menuButton {
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+.menuButton:hover {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.menuButtonSelected {
+    padding: 1rem;
+    color: darkgrey;
+}
+
+.menuButtonSelected:hover {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.menuSiteTitle {
+    padding: 1rem;
+    text-transform: capitalize;
+    color: darkgrey;
+}
+
+.menuSiteTitle:hover {
+    text-decoration: none;
+}
+
+.menuNavButtons {
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 1rem;
 }

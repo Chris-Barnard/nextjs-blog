@@ -25,6 +25,11 @@
   line-height: 1.5;
 }
 
+.headingSm {
+    font-size: 0.8rem;
+    line-height: 0.8;
+}
+
 .borderCircle {
   border-radius: 9999px;
 }
@@ -55,4 +60,18 @@
 .centered {
   display: block;
   margin: auto;
+}
+
+.blurb {
+    color: #111;
+    margin-left: 1rem;
+}
+
+.blurb:hover {
+    text-decoration: none;
+}
+
+.blurbImage {
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
 }
