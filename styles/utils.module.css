@@ -61,3 +61,17 @@
   display: block;
   margin: auto;
 }
+
+.blurb {
+    color: #111;
+    margin-left: 1rem;
+}
+
+.blurb:hover {
+    text-decoration: none;
+}
+
+.blurbImage {
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+}
