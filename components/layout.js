@@ -2,11 +2,13 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from './layout.module.css';
 import Link from 'next/link';
+import Navbar from './navbar';
 
 const name = 'Chris Barnard';
 export const siteTitle = 'A Trader\'s Journey to Becoming World Class';
 
-export default function Layout({ children, home, about }) {
+export default function Layout({ children, home, about, books }) {
+  const curPage = home ? "home" : about ? "about" : books ? "books" : "other";
   return (
     <div className={styles.container}>
       <Head>
@@ -25,21 +27,12 @@ export default function Layout({ children, home, about }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        <div className={styles.navigationTop}>
-          <nav className={styles.mainNavigation} role='navigation'>
-            <Link href="/" className={styles.menuName}>{name}</Link>
-            <Link href="/" className={styles.menuSiteTitle}>{siteTitle}</Link>
-            <div className={styles.menuNavButtons}>
-                <Link href="/" className={home ? styles.menuButtonSelected : styles.menuButton}>Home</Link>
-                <Link href="/about/" className={about ? styles.menuButtonSelected : styles.menuButton}>About</Link>
-            </div>
-          </nav>
-        </div>
+        <Navbar name={name} siteTitle={siteTitle} curPage={curPage}/>
         <>
           <Image
             priority
+            className={styles.bannerPhoto}
             src="/images/banner-photo.jpg"
-            // className={utilStyles.borderCircle}
             width={0}
             height={0}
             sizes="100vw"

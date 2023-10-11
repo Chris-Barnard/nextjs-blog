@@ -23,62 +23,6 @@
     padding-bottom: 2rem;
 }
 
-.navigationTop {
-  background: #181818;
-  font-size: 1rem;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-}
-
-.mainNavigation {
-  clear: both;
-  display: flex;
-  flex-wrap: wrap;
-  text-transform: lowercase;
-}
-
-.menuName {
-  padding: 1rem;
-  padding-right: 3rem;
-}
-
-.menuName:hover {
-    text-decoration: none;
-}
-
-.menuButton {
-  padding: 1rem;
-  color: whitesmoke;
-}
-
-.menuButton:hover {
-    text-decoration: none;
-    color: darkgrey;
-}
-
-.menuButtonSelected {
-    padding: 1rem;
-    color: darkgrey;
-}
-
-.menuButtonSelected:hover {
-    text-decoration: none;
-    color: darkgrey;
-}
-
-.menuSiteTitle {
-    padding: 1rem;
-    text-transform: capitalize;
-    color: darkgrey;
-}
-
-.menuSiteTitle:hover {
-    text-decoration: none;
-}
-
-.menuNavButtons {
-    margin-left: auto;
-    margin-right: 0;
-    margin-top: 1rem;
+.bannerPhoto {
+    margin-top: 3rem;
 }
