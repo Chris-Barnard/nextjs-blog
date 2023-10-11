@@ -7,8 +7,8 @@ import Navbar from './navbar';
 const name = 'Chris Barnard';
 export const siteTitle = 'A Trader\'s Journey to Becoming World Class';
 
-export default function Layout({ children, home, about }) {
-  const curPage = home ? "home" : about ? "about" : "other";
+export default function Layout({ children, home, about, books }) {
+  const curPage = home ? "home" : about ? "about" : books ? "books" : "other";
   return (
     <div className={styles.container}>
       <Head>
