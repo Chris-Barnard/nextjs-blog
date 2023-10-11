@@ -1,13 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Chris Barnard';
 export const siteTitle = 'A Trader\'s Journey to Becoming World Class';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, about }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -28,47 +27,35 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         <div className={styles.navigationTop}>
           <nav className={styles.mainNavigation} role='navigation'>
-            <Link href="/" className={styles.menuHome}>{name}</Link>
+            <Link href="/" className={styles.menuName}>{name}</Link>
+            <Link href="/" className={styles.menuSiteTitle}>{siteTitle}</Link>
+            <div className={styles.menuNavButtons}>
+                <Link href="/" className={home ? styles.menuButtonSelected : styles.menuButton}>Home</Link>
+                <Link href="/about/" className={about ? styles.menuButtonSelected : styles.menuButton}>About</Link>
+            </div>
           </nav>
         </div>
-        {home ? (
-          <>
-            <Image
-              priority
-              src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
-              height={243}
-              width={324}
-              alt=""
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/">
-              <Image
-                priority
-                src="/images/profile.jpg"
-                className={utilStyles.borderCircle}
-                height={162}
-                width={216}
-                alt=""
-              />
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name}
-              </Link>
-            </h2>
-          </>
-        )}
+        <>
+          <Image
+            priority
+            src="/images/banner-photo.jpg"
+            // className={utilStyles.borderCircle}
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto' }}
+            alt=""
+          />
+        </>
       </header>
-      <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
-        </div>
-      )}
+      <div className={styles.contentContainer}>
+        <main>{children}</main>
+        {!home && (
+          <div className={styles.backToHome}>
+            <Link href="/">← Back to home</Link>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
