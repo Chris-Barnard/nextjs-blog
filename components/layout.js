@@ -4,7 +4,7 @@ import styles from './layout.module.css';
 import Link from 'next/link';
 import Navbar from './navbar';
 
-const name = 'Chris Barnard';
+const name = 'Chris Barnard . blog';
 export const siteTitle = 'A Trader\'s Journey to Becoming World Class';
 
 export default function Layout({ children, home, about, books }) {

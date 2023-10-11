@@ -203,8 +203,8 @@
     }
 }
 
-@media screen and (max-width: 40rem) {
-    .menuName {
+@media screen and (max-width: 45rem) {
+    .menuSiteTitle {
         display: none;
     }
 }
