@@ -64,7 +64,7 @@
 .menuIcon div {
     border-radius: 2px;
     height: 6px;
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 .menuIcon div:nth-child(2) {
