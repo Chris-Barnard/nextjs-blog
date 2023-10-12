@@ -9,7 +9,7 @@ export default function About() {
                 <title>{siteTitle}</title>
             </Head>
             <section className={utilStyles.headingMd}>
-                <h2>Chris Barnard's Book Club</h2>
+                <h1 className={utilStyles.headingXl}>Chris Barnard's Book Club</h1>
                 <p>To be developed...</p>
             </section> 
         </Layout>
