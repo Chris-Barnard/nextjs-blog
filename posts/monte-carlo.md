@@ -153,11 +153,6 @@ I want to compare the raw results without the effect of scaling, but only changi
 
 ![Distribution of Peter Skilled Results](/assets/blog/monte-carlo/distribution-peter.png)
 
-This first thing you should notice is that we introduced a positive skew to our distribution.
-This comes from the fact that as we are losing, we are scaling down our bet size, and as we are winning, we increase it.
-The result is those times we get lucky and the good streak continues, we really end up with a blow out year.
-This can perhaps be more clearly seen in looking at a box plot of our simulated samples.
-
 #### Resulting Metrics
 
  - **Sample Size**: 1,000 Trading Years consisting of 120 trades / year
@@ -188,4 +183,17 @@ It really stresses to me the importance of improving your skills as a trader, an
 ![Sample of Peter Skilled Traders](/assets/blog/monte-carlo/sample-runs-peter.png)
 
 When you look at the distribution of equity curves, the worst year is still a pretty solid performance by most people's book.
-They all look like a line that trends up an to the right.
+They all look like a line that trends up and to the right.
+
+# Final Conclusions
+
+#### My Stats vs Peter's
+ - **Win Percentage**: 19.78% vs 50.4%
+ - **Profit Factor**: 1.187 vs 4.0
+
+The *Profit Factor* is such a good measure of skill because it is a measure of **return** / **risk**.
+As we saw, the expected returns can be boosted without increasing our skill by increasing the amount we risk each trade, but this comes with significant risk of drawdown.
+The *Profit Factor* doesn't allow that embedded risk to hide.
+
+In my case, the low *Win Percentage* contributes to some of my struggles on raising my *Profit Factor*.
+Each winning trade is having to offset 4 losing trades on average, and while I have been diligent on keeping the losses small, they still add up, and greatly increase the risk of having losing years.
