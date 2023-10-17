@@ -131,6 +131,7 @@ The risk is compensated though, as our mean expected return went up to $22.8k wi
 
 ![Sample of Kelly Sized Runs](/assets/blog/monte-carlo/sample-runs-kelly.png)
 
+---
 ## Trade like a Pro
 
 So far we've seen how a trader of my skill level can attempt to build up their account by using the Quarter Kelly Criterion to scale up and down their risk level as their year goes on and their closed trade equity balance changes.
