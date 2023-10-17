@@ -133,15 +133,18 @@ The risk is compensated though, as our mean expected return went up to $22.8k wi
 
 ## Trade like a Pro
 
-So far we've seen how a trader of my skill level can attempt to build up their account by scaling up and down their risk level as their year goes on.
-This will certainly allow us to grow our account overtime, but it also assumes that my current results YTD are representative of my expected metrics going forward, and as we've seen, there can be significant deviation in a given year in how you actually perform vs your actual expectation.
-Thus, my current results could be representative of a losing trader on a lucky streak.
+So far we've seen how a trader of my skill level can attempt to build up their account by using the Quarter Kelly Criterion to scale up and down their risk level as their year goes on and their closed trade equity balance changes.
+This will certainly allow us to grow our account overtime, but with a pretty significant risk of a large drawdown.
 
-I was curious how I would expect the simulation to look, if instead of 1,000 traders of my skill level, it was 1,000 traders of world class skill.
+It also assumes that my current results YTD are representative of my expected metrics going forward, and as we've seen, there can be significant deviation in a given year in how you actually perform vs your actual expectation.
+Thus, my current results could easily be representative of a losing trader on a lucky streak.
+This magnifies the potential risk that we saw in our second scenario above.
+
+I was curious how the simulation would look, if instead of 1,000 traders of my skill level, it was 1,000 traders with world class skills at trading.
 
 I was on a webinar recently where market wizard Peter Brandt [(@PeterLBrandt)](https://twitter.com/PeterLBrandt) shared his performance statistics for YTD 2023.
-
 His *Win Percentage* was 50.4% with a *Profit Factor* of 4.0.
+
 I'll run one final simulation for this post using Peter's statistics, but going back to my original bet-sizing.
 I want to compare the raw results without the effect of scaling, but only changing the skill level.
 
