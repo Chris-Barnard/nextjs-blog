@@ -139,8 +139,8 @@ The simulated results based on Peter's statistics really exemplify this.
 I found it interesting to note that in comparing his 99.7% confidence interval to mine, there isn't much difference in the variance.
 
 Variance in 99.7 Confidence Intervals:
- - Peter: $75,983.67 - $30,425.95 = $45,557.72 
- - Chris: $28,305.25 - -$13,208.71 = $41,513.96
+ - **Peter**: $75,983.67 - $30,425.95 = $45,557.72 
+ - **Chris**: $28,305.25 - -$13,208.71 = $41,513.96
 
 The difference is that his bell curve is shifted far to the right.
 
