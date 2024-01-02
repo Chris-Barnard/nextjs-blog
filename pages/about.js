@@ -12,11 +12,11 @@ export default function About() {
                 <h2>About Chris Barnard</h2>
                 <p>
                     Hello, I'm Chris.  I'm a trader specializing in the Futures and Forex Markets.
-                    Follow me on my journey to become one of the top 5% of traders that can thrive in today's difficult trading world.
+                    Follow me on my journey to become one of the top traders that can thrive in today's difficult trading world.
                 </p>
                 <p>
                     I am a former poker player and data scientist that has always enjoyed studying the markets and investing.
-                    I started primarily as long term value investor and bitcoin HODLer.
+                    I started primarily as longterm value investor and bitcoin HODLer.
                     Now I'm trying to make my mark swing trading in the futures and forex world.
                 </p>
                 <p>
