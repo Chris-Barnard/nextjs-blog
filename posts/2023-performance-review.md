@@ -1,6 +1,7 @@
 ---
 title: '2023 Annual Performance Review'
 date: '2024-01-01'
+image: '/assets/blog/2023-annual-performance-review/closed-trade-equity.png'
 blurb: 'In this weeks post, I take a look at my performance in 2023, with a focus on the metrics that I find important.'
 ---
 
@@ -19,6 +20,8 @@ I've also been fortunate to come across several great resources that have helped
 
 # Monthly Returns
 
+![Monthly Returns](/assets/blog/2023-annual-performance-review/closed-trade-equity-sm.png)
+
 I'll start by listing my monthly returns, and calculating the monthly Gain to Pain ratio.
 I want to be clear that this is only for my trading portfolio based on my Nominal Account Value.
 One of the amazing things about Futures and Forex is the capital efficiency that you can enjoy.
@@ -26,7 +29,7 @@ Because of this, the actual capital deployed was only a small portion of my Nomi
 
 ![Monthly Returns](/assets/blog/2023-annual-performance-review/monthly-returns.png)
 
-## Commentary
+### Commentary
 
 This year had a few different tones in terms of my trading performance.
 
@@ -43,13 +46,13 @@ I discuss dealing with drawdowns in my post on [Dealing with Drawdowns](/posts/d
 
 This fall, I managed to catch quite a few moves across a few different assets: from the year end rally in the Nasdaq, the turn in US Treasuries, and the breakout in Crypto.
 This led to my largest monthly gain in November.
-December has been mostly flat in terms of closed trades, but I'm carrying some open positions with *Unrealized Profits* into 2024.
+December has been mostly flat in terms of closed trades, but I'm carrying some open positions with unrealized profits into 2024.
 
 # Trade Statistics
 
 If you need a review of the trading statistics that I think are important, head over to my article on the [Trading Triangle](/posts/trading-triangle/) as I won't be going into detail on calculating them here.
 
-### Considerations on Trade Window Aperture
+#### Considerations on Trade Window Aperture
 
 Since most of my trades last anywhere from a couple of days to several months, I have to determine how to group trades into a given trading window.
 In most situations, I am looking at my trade close date as my date of record, as that is the moment which the profit or loss is actually realized.
@@ -66,7 +69,7 @@ I think this gives the best view into what is my actual risk / reward for puttin
 For this *Trade Statistics* section, I'll be looking at that I've opened during 2023, with the total gain or loss on that position.
 For a few trades that are either fully, or partially open going into 2024, I'll use their year-end mark to market gain.
 
-## Number of Trades Taken
+#### Number of Trades Taken
 
 During 2023, I entered 118 trades.
 Of these, I had a profit on only 25 of these.
@@ -82,7 +85,7 @@ Would I have preferred a higher win rate if I could keep the same average win an
 Of course, but as I explained in the [Trading Triangle](/posts/trading-triangle/), that's not really possible.
 Changing one variable inevitably alters the other two.
 
-## Average Win and Average Loss
+#### Average Win and Average Loss
 
 ![Average Win and Loss](/assets/blog/2023-annual-performance-review/average-win-loss.png)
 
@@ -94,7 +97,7 @@ Hopefully this starts to hammer home the point of why I find it so critical to m
 I can't control how many trades that I enter go in my favor, or how far they end up going, but I can control how much of a loss I'm willing to take.
 I want to stack the odds in my favor as much as I can.
 
-## Profit Factor and Expectancy
+#### Profit Factor and Expectancy
 
 ![Profit Factor and Expectancy](/assets/blog/2023-annual-performance-review/profit-factor-expectancy.png)
 
@@ -109,7 +112,7 @@ I like to look at expectancy as a ratio over the abs(**Average Loss**).
 I call this **Realized Edge**.
 It is ratio of the amount I expect to win vs the risk I'm taking to achieve that gain.
 
-## Gross Winnings and Net Profit
+#### Gross Winnings and Net Profit
 
 ![Gross Winnings and Net Profit](/assets/blog/2023-annual-performance-review/gross-winnings-net-profit.png)
 
@@ -117,15 +120,32 @@ My total return is 14.41% of my Nominal Account Value.
 Remember that this does include some mark to market profits that may have some give back, or continued growth in 2024, but I wanted to include those in this snapshot as I think it makes the metrics more accurate, since my average hold time on winning trades is much longer than my average hold time on losing trades.
 As I'm writing this on New Years Day, I'd have to wait until all these positions get closed out to have a truly accurate assessment of my 2023 metrics, and this methodology also aligns with the way that the IRS looks at my trading.
 
+This should be compared to my Closed Trade Equity performance.
+Of the 14.41%, 4.59% was a mark to market gain on open positions.
+This means that I had my Closed Trade Equity had increased by 9.64%.
+I prefer to look at my trading from a closed trade perspective, instead of the mark to market perspective.
+I like to remove some of the noise of daily price fluctuations, and only count the profit once it's been recognized.
+
+
 # Relative Performance and the Benefits of Capital Efficiency
 
-Why would I be proud of earning 14.41% in 2023, when the S&P 500 went up 24.5% in the same time period?
+Why would I be proud of earning 14.41% in 2023, when the S&P 500 went up 25% in the same time period?
 There are really two answers to this question.
 
-The first is risk adjusted returns.  The S&P 500 had two large drawdowns during 2023.  The first was 8.77% peak to trough and the second was 11.05%. The larger of these lasted from July 27th to December 8th.  This rivals the duration of the large drawdown that I had this year as well, but mine was under 5% peak to trough.
+The first is risk adjusted returns.  The S&P 500 had two large drawdowns during 2023.  The first was 8.77% peak to trough and the second was 11.05%. The larger of these lasted from July 27th to December 8th.  This rivals the duration of the large drawdown that I had this year as well, but mine was just under 5% peak to trough.
 
 The second answer to this question, is that I'm kind of able to do both.
 While I committed $150,000 of risk capital to my trading venture, I am only using a fraction of that to cover the margin on my trades.
 I funded trading accounts with only 15% of my risk capital, and the remainder stayed invested in equities and bitcoin.
 So my return on capital deployed to my trading venture is actually 96%.
 I don't think it's entirely fair to look at it this way though, as I was willing to deploy more capital if needed into my trading accounts.
+
+# Distribution of Trade returns
+
+![Gross Winnings and Net Profit](/assets/blog/2023-annual-performance-review/distribution-trade-returns.png)
+
+Peter Brandt ([@PeterLBrandt](https://twitter.com/PeterLBrandt)) refers to this as the Pareto principle.
+He has much more experience than I do, but claims that he's never seen a discretionary trader whose results don't fit the description that 80% of profits will come from at most 20% of trades.
+Often this number is less, as it is for me, where 80% of my profits came from my top 3 trades.
+
+Allowing these trades room to run is especially critical with my style of trading, as I don't get these opportunities all that often, and I really need to capitalize on them when they occur.
