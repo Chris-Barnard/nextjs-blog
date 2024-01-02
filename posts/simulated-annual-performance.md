@@ -7,7 +7,7 @@ blurb: "In this exercise, I'll simulate the results of 1,000 traders all trading
 
 In my last post, I wrote a little about the important performance metrics that make up the *Trading Triangle* as well as some metrics that can be derived from these variables, such as *Profit Factor*.
 Today I want to delve into why these metrics are my focus, by looking at things through the lens of probability.
-To do this, we are going to examine some different simulations of trading results that a trader could experience over the course of a year, based on their metrics from the *Trading Triangle*.
+To do this, we are going to examine some different simulations of trading results that a trader could experience over the course of a year, based on their metrics from the [Trading Triangle](/posts/trading-triangle).
 If you need a refresher on how to calculate these metrics for yourself, head over to my [post](/posts/trading-triangle/) on this subject.
 
 ### My YTD Metrics for 2023
