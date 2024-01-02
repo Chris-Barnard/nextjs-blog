@@ -62,8 +62,70 @@ Note that this is different than how the IRS views futures trading.
 They look at your mark to market performance as of the end of the year.
 
 For my trade statistics, I like to group my trades based on entry, with the cumulative gain or loss for all closed tranches as the gain of loss for that entry, even if portions of it were exited at different times.
-I think this gives the best view into what is my actual risk / reward for putting the trade on, and what is my actual expectancy for trades that I place.  
+I think this gives the best view into what is my actual risk / reward for putting the trade on, and what is my actual expectancy for trades that I place.
 For this *Trade Statistics* section, I'll be looking at that I've opened during 2023, with the total gain or loss on that position.
 For a few trades that are either fully, or partially open going into 2024, I'll use their year-end mark to market gain.
 
-## Test Title
+## Number of Trades Taken
+
+During 2023, I entered 118 trades.
+Of these, I had a profit on only 25 of these.
+I define a profit as a return above 5 bps, net of fees.
+I took a loss on 71 trades, with a loss similarly being defined as a return below -5 bps net of fees.
+On the remaining 22 trades, I broke even, with a return between 5 and -5 bps, net of fees.
+
+![Trade Breakdown](/assets/blog/2023-annual-performance-review/trade-breakdown.png)
+
+Often I get spammed on twitter or email with people promoting some trading system with an 80%+ or even 90% win rate.
+I never see people advertise a system with a 21% win rate, but that is precisely what I did this year, and I'm proud of it.
+Would I have preferred a higher win rate if I could keep the same average win and average loss?
+Of course, but as I explained in the [Trading Triangle](/posts/trading-triangle/), that's not really possible.
+Changing one variable inevitably alters the other two.
+
+## Average Win and Average Loss
+
+![Average Win and Loss](/assets/blog/2023-annual-performance-review/average-win-loss.png)
+
+You can see that my average win was substantially more than my average loss.
+My profit ratio was just over 6.5 in fact.
+
+With a profit ratio of 6.5, one would need to have a win percentage of only 13.3% to break even.
+Hopefully this starts to hammer home the point of why I find it so critical to manage my downside.
+I can't control how many trades that I enter go in my favor, or how far they end up going, but I can control how much of a loss I'm willing to take.
+I want to stack the odds in my favor as much as I can.
+
+## Profit Factor and Expectancy
+
+![Profit Factor and Expectancy](/assets/blog/2023-annual-performance-review/profit-factor-expectancy.png)
+
+Both of these metrics measure my profit relative to risk, but convey that information a little differently.
+You may be aware that **Profit Factor** is my favorite metric to pay attention to and to manage towards.
+
+A quick reminder that **Profit Factor** is **Gross Winnings** / abs(**Gross Losses**).
+This means that if your profit factor is greater than 1, your winning exceeded your losses and you were profitable.
+
+**Expectancy** on the other hand, is the average amount you would expect to gain (or lose), on your next trade, based on the success rate and profit ratio of all of your other trades.
+I like to look at expectancy as a ratio over the abs(**Average Loss**).
+I call this **Realized Edge**.
+It is ratio of the amount I expect to win vs the risk I'm taking to achieve that gain.
+
+## Gross Winnings and Net Profit
+
+![Gross Winnings and Net Profit](/assets/blog/2023-annual-performance-review/gross-winnings-net-profit.png)
+
+My total return is 14.41% of my Nominal Account Value.
+Remember that this does include some mark to market profits that may have some give back, or continued growth in 2024, but I wanted to include those in this snapshot as I think it makes the metrics more accurate, since my average hold time on winning trades is much longer than my average hold time on losing trades.
+As I'm writing this on New Years Day, I'd have to wait until all these positions get closed out to have a truly accurate assessment of my 2023 metrics, and this methodology also aligns with the way that the IRS looks at my trading.
+
+# Relative Performance and the Benefits of Capital Efficiency
+
+Why would I be proud of earning 14.41% in 2023, when the S&P 500 went up 24.5% in the same time period?
+There are really two answers to this question.
+
+The first is risk adjusted returns.  The S&P 500 had two large drawdowns during 2023.  The first was 8.77% peak to trough and the second was 11.05%. The larger of these lasted from July 27th to December 8th.  This rivals the duration of the large drawdown that I had this year as well, but mine was under 5% peak to trough.
+
+The second answer to this question, is that I'm kind of able to do both.
+While I committed $150,000 of risk capital to my trading venture, I am only using a fraction of that to cover the margin on my trades.
+I funded trading accounts with only 15% of my risk capital, and the remainder stayed invested in equities and bitcoin.
+So my return on capital deployed to my trading venture is actually 96%.
+I don't think it's entirely fair to look at it this way though, as I was willing to deploy more capital if needed into my trading accounts.
