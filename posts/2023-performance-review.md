@@ -20,7 +20,7 @@ I've also been fortunate to come across several great resources that have helped
 
 # Monthly Returns
 
-![Monthly Returns](/assets/blog/2023-annual-performance-review/closed-trade-equity-sm.png)
+![Monthly Returns](/assets/blog/2023-annual-performance-review/closed-trade-equity.png)
 
 I'll start by listing my monthly returns, and calculating the monthly Gain to Pain ratio.
 I want to be clear that this is only for my trading portfolio based on my Nominal Account Value.
@@ -120,11 +120,11 @@ My total return is 14.41% of my Nominal Account Value.
 Remember that this does include some mark to market profits that may have some give back, or continued growth in 2024, but I wanted to include those in this snapshot as I think it makes the metrics more accurate, since my average hold time on winning trades is much longer than my average hold time on losing trades.
 As I'm writing this on New Years Day, I'd have to wait until all these positions get closed out to have a truly accurate assessment of my 2023 metrics, and this methodology also aligns with the way that the IRS looks at my trading.
 
-This should be compared to my Closed Trade Equity performance.
+But, this should be compared to my Closed Trade Equity performance.
 Of the 14.41%, 4.59% was a mark to market gain on open positions.
 This means that I had my Closed Trade Equity had increased by 9.64%.
-I prefer to look at my trading from a closed trade perspective, instead of the mark to market perspective.
-I like to remove some of the noise of daily price fluctuations, and only count the profit once it's been recognized.
+I prefer to look at my profits from a closed trade perspective, instead of the mark to market perspective.
+I like to remove some of the noise of daily price fluctuations from the bottom line that I'm looking at, and only count the profit once it's been recognized.
 
 
 # Relative Performance and the Benefits of Capital Efficiency
