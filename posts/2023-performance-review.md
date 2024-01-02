@@ -20,7 +20,7 @@ I've also been fortunate to come across several great resources that have helped
 
 # Monthly Returns
 
-![Monthly Returns](/assets/blog/2023-annual-performance-review/closed-trade-equity.png)
+![Monthly Returns](/assets/blog/2023-annual-performance-review/closed-trade-equity-sm.png)
 
 I'll start by listing my monthly returns, and calculating the monthly Gain to Pain ratio.
 I want to be clear that this is only for my trading portfolio based on my Nominal Account Value.
