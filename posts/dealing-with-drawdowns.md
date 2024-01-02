@@ -1,7 +1,7 @@
 ---
 title: 'Dealing With Drawdowns'
 date: '2023-12-12'
-image: '/assets/blog/dealing-with-drawdowns/drawdown-graph.png'
+image: '/assets/blog/dealing-with-drawdowns/drawdown-graph-lg.png'
 blurb: 'The reality of trading is that a large portion of your time will be spent in some form of drawdown.  This posts delves into what my drawdowns looked like so far in 2023 as well as talking about how I approach drawdowns mentally as well as tactically.' 
 ---
 
