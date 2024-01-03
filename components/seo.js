@@ -13,23 +13,21 @@ export default function Seo({ postData }) {
                 openGraph={{
                     type: 'website',
                     url: 'https://chrisbarnard.blog',
-                    title: `${title} | originally posted on chrisbarnard.blog`,
+                    title: `${title} | chrisbarnard.blog`,
                     description: blurb,
                     locale: 'en_EN',
                     images: [
                         {
                             url: image,
-                            width: 800,
-                            height: 600,
-                            alt: `${title} on chrisbarnard.blog`
+                            alt: `${title} | chrisbarnard.blog`
                         },
                     ],
-                    site_name: 'chrisbarnard.blog'
+                    siteName: 'chrisbarnard.blog'
                 }}
                 twitter={{
                     handle: '@cb_poker',
                     site: 'chrisbarnard.blog',
-                    cardType: 'summary',
+                    cardType: 'summary_large_image',
                 }}
             />
         </>
