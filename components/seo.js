@@ -29,7 +29,7 @@ export default function Seo({ postData }) {
                 twitter={{
                     handle: '@cb_poker',
                     site: 'chrisbarnard.blog',
-                    cardType: 'summary',
+                    cardType: 'summary_large_image',
                 }}
             />
         </>
