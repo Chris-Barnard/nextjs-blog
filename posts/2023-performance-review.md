@@ -2,7 +2,7 @@
 title: '2023 Annual Performance Review'
 date: '2024-01-02'
 image: '/assets/blog/2023-annual-performance-review/closed-trade-equity.png'
-blurb: 'In this weeks post, I take a look at my performance in 2023, with a focus on the metrics that I find important.'
+blurb: 'In this post, I take a look at my performance in 2023, with a focus on the metrics that I find important.'
 ---
 
 # Initial Commentary
