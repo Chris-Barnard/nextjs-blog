@@ -6,6 +6,7 @@ import Markdown from '../../components/react-markdown';
 import utilStyles from '../../styles/utils.module.css';
 import sizeOf from 'image-size';
 import { join } from 'path';
+import Seo from '../../components/seo';
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
@@ -23,7 +24,6 @@ export async function getStaticProps({ params }) {
       console.error(`Can't get dimensions for ${src}`, err)
     }
   }
-
   return {
     props: {
       postData,
@@ -45,6 +45,7 @@ export default function Post({ postData, imageSizes }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        <Seo postData={postData} />
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
