@@ -19,8 +19,6 @@ export default function Seo({ postData }) {
                     images: [
                         {
                             url: image,
-                            width: 800,
-                            height: 600,
                             alt: `${title} | chrisbarnard.blog`
                         },
                     ],
